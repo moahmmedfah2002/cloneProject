@@ -1,0 +1,2 @@
+if(!customElements.get("cart-drawer-info-slider")){class CartDrawerInfoSlider extends HTMLElement{constructor(){super(),Shopify.designMode&&window.addEventListener("shopify:section:load",e=>{this.init()}),this.init()}init(){var swiperArea=document.querySelector(".cart-drawer__swiper");this.slider=new Swiper(swiperArea,{direction:"vertical",slidesPerView:1,loop:!0,allowTouchMove:!1,autoplay:{delay:5e3}})}}customElements.define("cart-drawer-info-slider",CartDrawerInfoSlider)}
+//# sourceMappingURL=/cdn/shop/t/4/assets/cart-info-bar-slider.js.map?v=71747711964503262211757684155
